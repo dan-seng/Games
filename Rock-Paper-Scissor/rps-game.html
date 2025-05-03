@@ -2,12 +2,17 @@
 <html>
     <head>
         <title>Game</title>
-		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </head>
     <body>
       <div class="xx">
    <div class="heading">
-    <h1>ROCK PAPER SCISSOR    <button class="but-style" id="addClassButton" onclick="darkTheme()">Light/Night</button></h1>
+      <div class="heading-content">
+        <h1>ROCK PAPER SCISSOR</h1>
+        <p class="legend-text">Rock = &#9994 Paper = &#9995 Scissor = &#9996</p>
+      </div>
+      <button class="but-style" id="addClassButton" onclick="darkTheme()">Light/Night</button>
    </div>
      
        <div class="buttons">
@@ -33,11 +38,7 @@
                 <p class="js-choice">Your choice goes here</p>
                 <p class="Js-score"> </p>
             </div>
-            <div class="xte">
-                <marquee >
-                    <h1>Rock = &#9994, Paper = &#9995, Scissor = &#9996  </h1>
-                </marquee>
-            </div>
+
         </div>
         <div class="link">
             <h3>Pick background color 
@@ -51,8 +52,27 @@
         </div>
 
         <footer>
-            <a href="https://www.instagram.com/_dan_el">&#169 Daniel Gidey</a>
-		</footer>
+            <div class="footer-content">
+                <div class="copyright">&#169; Daniel Gidey</div>
+                <div class="social-links">
+                    <a href="https://github.com/dan-seng" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com/_dan_el" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://wa.me/251945012123" target="_blank" class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://facebook.com/dan16son" target="_blank" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="mailto:da16gi@gmail.com" class="social-link">
+                        <i class="far fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
    </div> 
        
 <script src="script.js">
