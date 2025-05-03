@@ -1,0 +1,142 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-family: sans-serif;
+    padding: 10px;
+   
+
+}
+.xbut{
+    background-color: black;
+    box-shadow: 4px 5px 77px rgba(23, 189, 244, 1);
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    font-size: 72px;
+}
+.heading{
+    background-color: rgba(128, 128, 128, 0.543);
+    height: 52px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading button{
+background: #555;
+color: white;
+border: none;
+padding: 0.5rem 1rem;
+cursor: pointer;
+border-radius: 5px;
+transition: all 0.15s;
+}
+.heading button:hover{
+background: #777;
+}
+.highlight  {
+    background-color: rgb(251, 252, 252);
+    color: black;
+   }
+   .highlight .whole-page{
+    box-shadow: 0px 5px 77px rgba(90, 201, 235, 0.5); 
+   }
+   .highlight  .reset{
+    background-color: #555;
+    color: aliceblue;
+   }
+   .highlight .auto{
+    background-color: #555;
+    color: aliceblue;
+   }
+   .highlight p{
+    background-color: #555;
+    color: aliceblue;
+   }
+   .highlight button{
+    box-shadow: none;
+   }
+
+.xreset{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.reset, .auto{
+    background-color: white;
+    border: none;
+    width: 170px;
+    height: 52px;
+    font-size: 18px;
+    font-weight: 550;
+    margin-right: 15px;
+    border-radius: 2px; 
+    cursor: pointer;
+    transition: all 0.15s;   
+} 
+
+a{
+    text-decoration: none;
+    color: aliceblue;   
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button{
+    margin-left: 35px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+ button:hover{
+    transform: scale(1.1);
+}
+ button:active{
+    transform: scale(1.0);
+}
+
+p{  
+    margin-top: 30px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.637);
+    width: 290px;
+}
+footer {
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+}  
+.reuss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xte h1{
+    font-size: 70px;
+    font-family: fantasy;
+}
+.link button{
+  background-color: dodgerblue;
+  border: none;
+  width: 150px;
+  height: 40px;
+  font-size: 17px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.15s;
+
+}
+.input-color{
+    width: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}
